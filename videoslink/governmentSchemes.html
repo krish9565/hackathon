@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Schemes Showcase</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .scheme-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .scheme-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+        .scheme-card h2 {
+            color: #28a745;
+            margin-bottom: 15px;
+        }
+        .scheme-card p {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #555;
+        }
+        .btn-green {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .btn-green:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: var(--primary-color);
+            color: var(--white);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: var(--white);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Government Schemes</h1>
+    <p>Explore various government schemes designed to empower citizens and improve livelihoods.</p>
+</header>
+
+
+<nav>
+    <div class="logo">Rural Empowerment Hub</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tutorials.html">Tutorials</a></li> <!-- Change href to tutorials.html -->
+        <li><a href="./request.html">Request Aid</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+</nav>
+
+
+<div class="container">
+    <!-- Scheme 1: Pradhan Mantri Awas Yojana -->
+    <div class="scheme-card">
+        <h2>Pradhan Mantri Awas Yojana (PMAY)</h2>
+        <p>
+            A housing scheme aimed at providing affordable housing to the urban poor by the year 2022.
+        </p>
+        <a href="https://pmaymis.gov.in/" class="btn-green" target="_blank">Learn More</a>
+    </div>
+
+    <!-- Scheme 2: Pradhan Mantri Kisan Samman Nidhi -->
+    <div class="scheme-card">
+        <h2>Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)</h2>
+        <p>
+            A scheme to provide financial assistance of ₹6,000 per year to small and marginal farmers.
+        </p>
+        <a href="https://pmkisan.gov.in/" class="btn-green" target="_blank">Learn More</a>
+    </div>
+
+    <!-- Scheme 3: Ayushman Bharat Yojana -->
+    <div class="scheme-card">
+        <h2>Ayushman Bharat Yojana</h2>
+        <p>
+            A health insurance scheme providing coverage of up to ₹5 lakh per family per year for secondary and tertiary care hospitalization.
+        </p>
+        <a href="https://www.pmjay.gov.in/" class="btn-green" target="_blank">Learn More</a>
+    </div>
+
+    <!-- Scheme 4: Swachh Bharat Mission -->
+    <div class="scheme-card">
+        <h2>Swachh Bharat Mission</h2>
+        <p>
+            A cleanliness campaign aimed at eliminating open defecation and improving solid waste management.
+        </p>
+        <a href="https://swachhbharat.mygov.in/" class="btn-green" target="_blank">Learn More</a>
+    </div>
+
+    <!-- Scheme 5: National Rural Employment Guarantee Act (NREGA) -->
+    <div class="scheme-card">
+        <h2>National Rural Employment Guarantee Act (NREGA)</h2>
+        <p>
+            A social security measure that aims to guarantee the 'right to work' by providing at least 100 days of wage employment in a financial year to every rural household.
+        </p>
+        <a href="https://nrega.nic.in/" class="btn-green" target="_blank">Learn More</a>
+    </div>
+
+    <!-- Scheme 6: Digital India -->
+    <div class="scheme-card">
+        <h2>Digital India</h2>
+        <p>
+            A campaign to ensure that government services are made available to citizens electronically by improving online infrastructure and internet connectivity.
+        </p>
+        <a href="https://www.digitalindia.gov.in/" class="btn-green" target="_blank">Learn More</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2023 Government Schemes Showcase. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
